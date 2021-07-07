@@ -4,6 +4,9 @@ You can use the [editor on GitHub](https://github.com/MichaelRren/MichaelRren.gi
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
+# Publications
+1. NetCruiser: Localize Network Failures by Learning from Latency Data
+
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
