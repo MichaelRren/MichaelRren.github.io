@@ -1,18 +1,18 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>My New Hugo Site</title>
+        <title>Ren&#39;s Blog</title>
         <link>https://michaelrren.github.io/</link>
-        <description>This is my cool site</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 10 Feb 2023 10:30:17 &#43;0800</lastBuildDate>
+        <description>Ren&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>m.renhaoshi@gmail.com (Michael Ren)</managingEditor>
+            <webMaster>m.renhaoshi@gmail.com (Michael Ren)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 10 Feb 2023 16:20:42 &#43;0800</lastBuildDate>
             <atom:link href="https://michaelrren.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
-    <title>Mypost</title>
-    <link>https://michaelrren.github.io/posts/mypost/</link>
-    <pubDate>Fri, 10 Feb 2023 10:30:17 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://michaelrren.github.io/posts/mypost/</guid>
-    <description><![CDATA[this is some content
-type struct { } ]]></description>
+    <title>First</title>
+    <link>https://michaelrren.github.io/first/</link>
+    <pubDate>Fri, 10 Feb 2023 16:20:42 &#43;0800</pubDate>
+    <author>Michael Ren</author>
+    <guid>https://michaelrren.github.io/first/</guid>
+    <description><![CDATA[first]]></description>
 </item>
 </channel>
 </rss>
