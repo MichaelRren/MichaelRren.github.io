@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>Github Pages 结合 Hugo 搭建个人博客 - Ren&#39;s Blog</title><meta name="Description" content=""><meta property="og:title" content="Github Pages 结合 Hugo 搭建个人博客" />
+<meta property="og:description" content="1. 使用 GitHub Pages 创建个人域名站点 首先，需要在 GitHub 上创建一个项目作为博客的域名。 这部分网上资料很多，本文不再赘述，可以参考Github Pages 搭建个人网站。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://michaelrren.github.io/hugo-github/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-02-10T16:20:42+08:00" />
+<meta property="article:modified_time" content="2023-02-10T16:20:42+08:00" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Github Pages 结合 Hugo 搭建个人博客"/>
+<meta name="twitter:description" content="1. 使用 GitHub Pages 创建个人域名站点 首先，需要在 GitHub 上创建一个项目作为博客的域名。 这部分网上资料很多，本文不再赘述，可以参考Github Pages 搭建个人网站。"/>
+<meta name="application-name" content="Ren&#39;s Blog">
+<meta name="apple-mobile-web-app-title" content="Ren&#39;s Blog"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://michaelrren.github.io/hugo-github/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Github Pages 结合 Hugo 搭建个人博客",
+        "inLanguage": "zh-CN",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/michaelrren.github.io\/hugo-github\/"
+        },"image": [{
+                            "@type": "ImageObject",
+                            "url": "https:\/\/michaelrren.github.io\/images\/Apple-Devices-Preview.png",
+                            "width":  3200 ,
+                            "height":  2048 
+                        }],"genre": "posts","keywords": "hugo, GitHub","wordcount":  845 ,
+        "url": "https:\/\/michaelrren.github.io\/hugo-github\/","datePublished": "2023-02-10T16:20:42+08:00","dateModified": "2023-02-10T16:20:42+08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
+            "@type": "Organization",
+            "name": "xxxx","logo": {
+                    "@type": "ImageObject",
+                    "url": "https:\/\/michaelrren.github.io\/images\/hacker.png",
+                    "width":  1024 ,
+                    "height":  1024 
+                }},"author": {
+                "@type": "Person",
+                "name": "Michael Ren"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Ren&#39;s Blog">Portal</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> 所有文章 </a><a class="menu-item" href="/categories/"> 分类 </a><span class="menu-item delimiter"></span><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a><a href="javascript:void(0);" class="menu-item language" title="选择语言">
+                    <i class="fa fa-globe" aria-hidden="true"></i>                      
+                    <select class="language-select" id="language-select-desktop" onchange="location = this.value;"><option value="/hugo-github/" selected>简体中文</option></select>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Ren&#39;s Blog">Portal</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><a class="menu-item" href="/posts/" title="">所有文章</a><a class="menu-item" href="/categories/" title="">分类</a><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a><a href="javascript:void(0);" class="menu-item" title="选择语言">
+                    <i class="fa fa-globe fa-fw" aria-hidden="true"></i>
+                    <select class="language-select" onchange="location = this.value;"><option value="/hugo-github/" selected>简体中文</option></select>
+                </a></div>
+    </div>
+</header><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">目录</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Github Pages 结合 Hugo 搭建个人博客</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="https://github.com/MichaelRren" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Michael Ren</a></span>&nbsp;<span class="post-category">收录于 <a href="/categories/%E9%BB%91%E7%A7%91%E6%8A%80/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>黑科技</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-02-10">2023-02-10</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;约 845 字&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;预计阅读 2 分钟&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  data-kept="">
+                <div class="details-summary toc-title">
+                    <span>目录</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#1-使用-github-pages-创建个人域名站点">1. 使用 GitHub Pages 创建个人域名站点</a></li>
+    <li><a href="#2-本机安装-hugo-并选择主题">2. 本机安装 Hugo 并选择主题</a></li>
+    <li><a href="#3-本地调试-hugo-主题">3. 本地调试 Hugo 主题</a></li>
+    <li><a href="#4-关联-github-pages-与-hugo">4. 关联 GitHub Pages 与 Hugo</a></li>
+    <li><a href="#5-其他功能">5. 其他功能</a>
+      <ul>
+        <li><a href="#51-评论功能">5.1 评论功能</a></li>
+        <li><a href="#52-搜索功能">5.2 搜索功能</a></li>
+        <li><a href="#53-文章增加-tag-和-category">5.3 文章增加 Tag 和 Category</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><h2 id="1-使用-github-pages-创建个人域名站点">1. 使用 GitHub Pages 创建个人域名站点</h2>
+<p>首先，需要在 <code>GitHub</code> 上创建一个项目作为博客的域名。</p>
+<p>这部分网上资料很多，本文不再赘述，可以参考<a href="https://blog.csdn.net/zhuguanlin121/article/details/118409449" target="_blank" rel="noopener noreffer ">Github Pages 搭建个人网站</a>。</p>
+<h2 id="2-本机安装-hugo-并选择主题">2. 本机安装 Hugo 并选择主题</h2>
+<p>其次，使用 <code>Hugo</code> 作为博客的静态网站，并选择主题进行呈现。</p>
+<blockquote>
+<p><code>Hugo</code> <a href="https://themes.gohugo.io/" target="_blank" rel="noopener noreffer ">资源库</a>, 本文使用 <code>LoveIt</code> 进行演示。</p>
+</blockquote>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="c1"># 下载 hugo</span>
+</span></span><span class="line"><span class="cl">brew install hugo
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 进入目录生成 hugo 项目</span>
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> Projects/opensource
+</span></span><span class="line"><span class="cl">hugo new site blog
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 选择主题目录并选择主题下载</span>
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> themes
+</span></span><span class="line"><span class="cl">git clone https://github.com/dillonzq/LoveIt.git
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 回到 blog 目录，创建一个博文并本地进行测试</span>
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> ..
+</span></span><span class="line"><span class="cl">hugo new posts/test.md
+</span></span><span class="line"><span class="cl">hugo server 
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="3-本地调试-hugo-主题">3. 本地调试 Hugo 主题</h2>
+<p>与上一步相关，对 <code>Hugo</code> 进行调试。</p>
+<p>LoveIt 主题作为一个 <code>stars</code> 众多的成功项目，其配置文件较多且较为繁琐：</p>
+<ol>
+<li>进入 <code>themes/LoveIt/example</code> 目录，将该目录下<strong>所有</strong>的文件拷贝到<code>opensource</code>目录下，并覆盖原有文件，如 <code>config.toml</code>， <code>assets</code>， <code>static</code>，<code>content</code> 等</li>
+<li>打开 <code>config.toml</code> 并按照注释进行修改即可</li>
+</ol>
+<h2 id="4-关联-github-pages-与-hugo">4. 关联 GitHub Pages 与 Hugo</h2>
+<p>最后是<strong>最关键的一步</strong>，将 <code>GitHub Pages</code> 与 调试成功后的 <code>Hugo</code> 项目进行关联并展示。</p>
+<ol>
+<li>在<strong>上文提到的 <code>blog</code> 目录下</strong>，将 <code>GitHub Pages</code> 的 <code>Repo</code> 作为 <code>submodule</code> 添加到 <code>blog</code> 目录下的 <code>public</code> 文件中（<code>blog</code> 目录可能需要 <code>git init</code>）</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="nb">cd</span> blog
+</span></span><span class="line"><span class="cl">git init
+</span></span><span class="line"><span class="cl"><span class="c1"># public 目录为 submodule 部署的目录，该命令自动生成</span>
+</span></span><span class="line"><span class="cl">git submodule add -b main git@github.com:xxx/xxx.github.io.git public
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ol start="2">
+<li>在 <code>blog</code> 目录下构建 <code>Hugo</code> 项目，并检查 <code>public</code> 目录下的文件，最后提交</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">hugo -t LoveIt
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> public
+</span></span><span class="line"><span class="cl">git add .
+</span></span><span class="line"><span class="cl">git commit -m <span class="s2">&#34;init&#34;</span>
+</span></span><span class="line"><span class="cl">git push origin main
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="5-其他功能">5. 其他功能</h2>
+<h3 id="51-评论功能">5.1 评论功能</h3>
+<p>评论功能依旧是基于 <code>Github Repo</code> 和 <code>utterances</code> 实现的。</p>
+<ol>
+<li>在 Github 上创建一个 <code>public</code> 的 <code>Github Repo</code>，如 <code>comments</code></li>
+<li>修改 <code>config.toml</code>，在属性 <code>[params.page.comment]</code> 处支持 <code>utterances</code></li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="line"><span class="cl">  <span class="p">...</span>
+</span></span><span class="line"><span class="cl">  <span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">page</span><span class="p">.</span><span class="nx">comment</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">    <span class="p">...</span>
+</span></span><span class="line"><span class="cl">      <span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">page</span><span class="p">.</span><span class="nx">comment</span><span class="p">.</span><span class="nx">utterances</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">enable</span> <span class="p">=</span> <span class="kc">true</span>
+</span></span><span class="line"><span class="cl">        <span class="c"># owner/repo</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">repo</span> <span class="p">=</span> <span class="s2">&#34;MichaelRren/comments&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">issueTerm</span> <span class="p">=</span> <span class="s2">&#34;pathname&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">label</span> <span class="p">=</span> <span class="s2">&#34;&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">lightTheme</span> <span class="p">=</span> <span class="s2">&#34;github-light&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">darkTheme</span> <span class="p">=</span> <span class="s2">&#34;github-dark&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">...</span>
+</span></span><span class="line"><span class="cl">  <span class="p">...</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ol start="3">
+<li>打开 <a href="https://github.com/apps/utterances" target="_blank" rel="noopener noreffer ">utterances</a> 并进行配置</li>
+</ol>
+<blockquote>
+<p>只选择 <code>github.io</code> 对应 <code>Repo</code> 即可；<br />
+此外，由于评论功能不支持在<strong>开发环境</strong>使用，所以调试时使用<code>hugo server -e production</code>命令进行测试。</p>
+</blockquote>
+<h3 id="52-搜索功能">5.2 搜索功能</h3>
+<p>todo</p>
+<h3 id="53-文章增加-tag-和-category">5.3 文章增加 Tag 和 Category</h3>
+<p>修改 <code>config.toml</code>，增加如下属性：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="line"><span class="cl"><span class="p">...</span>
+</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="nx">taxonomies</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">tag</span> <span class="p">=</span> <span class="s2">&#34;tags&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">category</span> <span class="p">=</span> <span class="s2">&#34;categories&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="p">...</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>完成后打开博文所对应的<code>md</code>文件，在<strong>文件首部</strong>增加如下字段：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-plain" data-lang="plain"><span class="line"><span class="cl">---
+</span></span><span class="line"><span class="cl">title: &#34;测试&#34;
+</span></span><span class="line"><span class="cl">date: 2023-02-10T16:20:42+08:00
+</span></span><span class="line"><span class="cl">tags: [&#34;hugo&#34;]
+</span></span><span class="line"><span class="cl">categories: [&#34;test&#34;]
+</span></span><span class="line"><span class="cl">---
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h1 id="引用">引用</h1>
+<p>[1] <a href="https://www.youtube.com/watch?v=LIFvgrRxdt4" target="_blank" rel="noopener noreffer ">Creating a Blog with Hugo and Github in 10 minutes</a></p>
+<p>[2] <a href="https://cloud.tencent.com/developer/article/1834230" target="_blank" rel="noopener noreffer ">hugo博客使用 utterances 作为评论系统</a></p>
+<p>[3] <a href="https://orianna-zzo.github.io/sci-tech/2018-01/blog%E5%85%BB%E6%88%90%E8%AE%B04-hugo%E4%B8%AD%E5%A2%9E%E5%8A%A0tags%E7%AD%89%E5%88%86%E7%B1%BB/" target="_blank" rel="noopener noreffer ">Blog养成记(4) Hugo中增加tags等分类</a></p>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>更新于 2023-02-10</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"><span>
+                            <a class="link-to-markdown" href="/hugo-github/index.md" target="_blank">阅读原始文档</a>
+                        </span></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="分享到 Twitter" data-sharer="twitter" data-url="https://michaelrren.github.io/hugo-github/" data-title="Github Pages 结合 Hugo 搭建个人博客" data-hashtags="hugo,GitHub"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="https://michaelrren.github.io/hugo-github/" data-hashtag="hugo"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="https://michaelrren.github.io/hugo-github/" data-title="Github Pages 结合 Hugo 搭建个人博客"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/hugo/">hugo</a>,&nbsp;<a href="/tags/github/">GitHub</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">返回</a></span>&nbsp;|&nbsp;<span><a href="/">主页</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"></div>
+</div>
+<div id="comments"><div id="utterances" class="comment"></div><noscript>
+                Please enable JavaScript to view the comments powered by <a href="https://utteranc.es/">utterances</a>.
+            </noscript></div></article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2022 - 2023</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="https://github.com/MichaelRren" target="_blank">Michael Ren</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="回到顶部">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="查看评论">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sharer.js@0.5.1/sharer.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"复制到剪贴板","maxShownLines":50},"comment":{"utterances":{"darkTheme":"github-dark","issueTerm":"pathname","label":"","lightTheme":"github-light","repo":"MichaelRren/comments"}}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>

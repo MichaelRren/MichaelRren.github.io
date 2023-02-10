@@ -7,12 +7,12 @@
             <webMaster>m.renhaoshi@gmail.com (Michael Ren)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 10 Feb 2023 16:20:42 &#43;0800</lastBuildDate>
             <atom:link href="https://michaelrren.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
-    <title>First</title>
-    <link>https://michaelrren.github.io/first/</link>
+    <title>Github Pages 结合 Hugo 搭建个人博客</title>
+    <link>https://michaelrren.github.io/hugo-github/</link>
     <pubDate>Fri, 10 Feb 2023 16:20:42 &#43;0800</pubDate>
     <author>Michael Ren</author>
-    <guid>https://michaelrren.github.io/first/</guid>
-    <description><![CDATA[first]]></description>
+    <guid>https://michaelrren.github.io/hugo-github/</guid>
+    <description><![CDATA[1. 使用 GitHub Pages 创建个人域名站点 首先，需要在 GitHub 上创建一个项目作为博客的域名。 这部分网上资料很多，本文不再赘述，可以参考Github Pages 搭建个人网站。]]></description>
 </item>
 </channel>
 </rss>
