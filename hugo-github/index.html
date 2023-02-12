@@ -32,7 +32,7 @@
                             "url": "https:\/\/michaelrren.github.io\/images\/Apple-Devices-Preview.png",
                             "width":  3200 ,
                             "height":  2048 
-                        }],"genre": "posts","keywords": "hugo, GitHub","wordcount":  1205 ,
+                        }],"genre": "posts","keywords": "hugo, GitHub","wordcount":  1336 ,
         "url": "https:\/\/michaelrren.github.io\/hugo-github\/","datePublished": "2023-02-10T16:20:42+08:00","dateModified": "2023-02-10T16:20:42+08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
             "@type": "Organization",
             "name": "xxxx","logo": {
@@ -85,7 +85,7 @@
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Github Pages 结合 Hugo 搭建个人博客</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="https://github.com/MichaelRren" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Michael Ren</a></span>&nbsp;<span class="post-category">收录于 <a href="/categories/%E9%BB%91%E7%A7%91%E6%8A%80/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>黑科技</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-02-10">2023-02-10</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;约 1205 字&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-02-10">2023-02-10</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;约 1336 字&nbsp;
                 <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;预计阅读 3 分钟&nbsp;</div>
         </div><div class="details toc" id="toc-static"  data-kept="">
                 <div class="details-summary toc-title">
@@ -106,6 +106,7 @@
         <li><a href="#54-替换-website-logo">5.4 替换 website logo</a></li>
         <li><a href="#55-修改-markdown-标题渲染">5.5 修改 markdown 标题渲染</a></li>
         <li><a href="#56-google-收录">5.6 Google 收录</a></li>
+        <li><a href="#57-引用图片">5.7 引用图片</a></li>
       </ul>
     </li>
     <li><a href="#引用">引用</a></li>
@@ -349,7 +350,11 @@
 <ol>
 <li>访问 <a href="https://search.google.com/search-console" target="_blank" rel="noopener noreffer ">Google Search Console</a>，选择<strong>网址前缀</strong>并输入对应的 <code>GitHub Pages</code> 的域名如 <code>https://xxx/github.io.</code> 并点击继续</li>
 </ol>
- <!-- ![google](posts/black-tech/hugo-github/google-search-consoleogle.png) -->
+<center><figure><img src="images/google-search-console.png" width="50%"/><figcaption>
+            <h4>图1</h4>
+        </figcaption>
+</figure>
+</center>
 <ol start="2">
 <li>
 <p><code>Google Search Console</code> 提示<strong>验证站点权限</strong>，可以下载对应的 html 文件，并放入 <code>public</code> 文件中即可</p>
@@ -358,13 +363,43 @@
 <p>基于站点地图 <code>sitemap.xml</code> 创建索引。由于 <code>public</code> 文件中已经存在 <code>sitemap.xml</code>，因此，只需要直接在 <code>Enter sitemap URL</code> 处输入 <code>sitemap.xml</code> 即可</p>
 </li>
 </ol>
-<!-- # ![google](posts/black-tech/hugo-github/google-sitemap.png) -->
-<h1 id="引用">引用</h1>
+<center><figure><img src="images/google-sitemap.png" width="50%"/><figcaption>
+            <h4>图2</h4>
+        </figcaption>
+</figure>
+</center>
+<h2 id="57-引用图片">5.7 引用图片</h2>
+<p><code>Hugo</code> 下引用图片，简单的步骤如下；</p>
+<ol>
+<li>生成博文时指定文件名为<code>index.md</code>，使用如下命令：</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-plain" data-lang="plain"><span class="line"><span class="cl">hugo new posts/black-tech/hugo-github/index.md
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ol start="2">
+<li>在 <code>posts/black-tech/hugo-github</code> 文件夹中新建一个 <code>images</code> 文件夹作为图片的文件夹</li>
+<li>引用时使用如下命令即可：</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">center</span><span class="p">&gt;</span>{-(去掉){<span class="p">&lt;</span> <span class="nt">figure</span> <span class="na">src</span><span class="o">=</span><span class="s">&#34;&#34;</span> <span class="na">title</span><span class="o">=</span><span class="s">&#34;figure 1&#34;</span> <span class="p">&gt;</span>}}<span class="p">&lt;/</span><span class="nt">center</span><span class="p">&gt;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h1 id="引用">引用</h1>
 <p>[1] <a href="https://www.youtube.com/watch?v=LIFvgrRxdt4" target="_blank" rel="noopener noreffer ">Creating a Blog with Hugo and Github in 10 minutes</a></p>
 <p>[2] <a href="https://cloud.tencent.com/developer/article/1834230" target="_blank" rel="noopener noreffer ">hugo博客使用 utterances 作为评论系统</a></p>
 <p>[3] <a href="https://orianna-zzo.github.io/sci-tech/2018-01/blog%E5%85%BB%E6%88%90%E8%AE%B04-hugo%E4%B8%AD%E5%A2%9E%E5%8A%A0tags%E7%AD%89%E5%88%86%E7%B1%BB/" target="_blank" rel="noopener noreffer ">Blog养成记(4) Hugo中增加tags等分类</a></p>
 <p>[4] <a href="https://fontawesome.com/" target="_blank" rel="noopener noreffer ">fontawesome</a></p>
 <p>[5] <a href="https://saowu.top/blog/4tCVcic30/" target="_blank" rel="noopener noreffer ">让Google搜索到GitHub Pages</a></p>
+<p>[6] <a href="https://www.yuweihung.com/posts/2021/hugo-blog-picture/" target="_blank" rel="noopener noreffer ">Hugo 博客插入图片的方法</a></p>
 </div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">

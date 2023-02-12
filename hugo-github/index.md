@@ -144,14 +144,27 @@ categories: ["test"]
 步骤如下：
 1. 访问 [Google Search Console](https://search.google.com/search-console)，选择**网址前缀**并输入对应的 `GitHub Pages` 的域名如 `https://xxx/github.io.` 并点击继续
 
- <!-- ![google](posts/black-tech/hugo-github/google-search-consoleogle.png) -->
+<center>{{< figure src="images/google-search-console.png" width="50%" title="图1" >}}</center>
+
 
 2. `Google Search Console` 提示**验证站点权限**，可以下载对应的 html 文件，并放入 `public` 文件中即可
 
 3. 基于站点地图 `sitemap.xml` 创建索引。由于 `public` 文件中已经存在 `sitemap.xml`，因此，只需要直接在 `Enter sitemap URL` 处输入 `sitemap.xml` 即可 
 
-<!-- # ![google](posts/black-tech/hugo-github/google-sitemap.png) -->
+<center>{{< figure src="images/google-sitemap.png" width="50%" title="图2" >}}</center>
 
+## 5.7 引用图片
+`Hugo` 下引用图片，简单的步骤如下；
+1. 生成博文时指定文件名为`index.md`，使用如下命令：
+```plain
+hugo new posts/black-tech/hugo-github/index.md
+```
+2. 在 `posts/black-tech/hugo-github` 文件夹中新建一个 `images` 文件夹作为图片的文件夹
+3. 引用时使用如下命令即可：
+
+```html
+<center>{-(去掉){< figure src="" title="figure 1" >}}</center>
+```
 
 # 引用
 [1] [Creating a Blog with Hugo and Github in 10 minutes](https://www.youtube.com/watch?v=LIFvgrRxdt4)
@@ -165,3 +178,5 @@ categories: ["test"]
 [4] [fontawesome](https://fontawesome.com/)
 
 [5] [让Google搜索到GitHub Pages](https://saowu.top/blog/4tCVcic30/)
+
+[6] [Hugo 博客插入图片的方法](https://www.yuweihung.com/posts/2021/hugo-blog-picture/)
