@@ -139,6 +139,19 @@ categories: ["test"]
     }
 ```
 
+## 5.6 Google 收录
+`GitHub Pages` 默认不会被 `Google` 抓取数据，因此需要通过 `Google Search Console` 进行额外的设置。
+步骤如下：
+1. 访问 [Google Search Console](https://search.google.com/search-console)，选择**网址前缀**并输入对应的 `GitHub Pages` 的域名如 `https://xxx/github.io.` 并点击继续
+
+ <!-- ![google](posts/black-tech/hugo-github/google-search-consoleogle.png) -->
+
+2. `Google Search Console` 提示**验证站点权限**，可以下载对应的 html 文件，并放入 `public` 文件中即可
+
+3. 基于站点地图 `sitemap.xml` 创建索引。由于 `public` 文件中已经存在 `sitemap.xml`，因此，只需要直接在 `Enter sitemap URL` 处输入 `sitemap.xml` 即可 
+
+<!-- # ![google](posts/black-tech/hugo-github/google-sitemap.png) -->
+
 
 # 引用
 [1] [Creating a Blog with Hugo and Github in 10 minutes](https://www.youtube.com/watch?v=LIFvgrRxdt4)
@@ -150,3 +163,5 @@ categories: ["test"]
 [3] [Blog养成记(4) Hugo中增加tags等分类](https://orianna-zzo.github.io/sci-tech/2018-01/blog%E5%85%BB%E6%88%90%E8%AE%B04-hugo%E4%B8%AD%E5%A2%9E%E5%8A%A0tags%E7%AD%89%E5%88%86%E7%B1%BB/)
 
 [4] [fontawesome](https://fontawesome.com/)
+
+[5] [让Google搜索到GitHub Pages](https://saowu.top/blog/4tCVcic30/)
