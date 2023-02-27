@@ -2,7 +2,7 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://michaelrren.github.io/categories/</loc><lastmod>2023-02-10T16:20:42&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://michaelrren.github.io/categories/</loc><lastmod>2023-02-27T22:48:35&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https://michaelrren.github.io/en/categories/"
@@ -11,11 +11,9 @@
                     hreflang="zh-cn"
                     href="https://michaelrren.github.io/categories/"
                     /></url><url>
-            <loc>https://michaelrren.github.io/tags/github/</loc><lastmod>2023-02-10T16:20:42&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://michaelrren.github.io/hugo-github/</loc><lastmod>2023-02-10T16:20:42&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://michaelrren.github.io/tags/hugo/</loc><lastmod>2023-02-10T16:20:42&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://michaelrren.github.io/posts/</loc><lastmod>2023-02-10T16:20:42&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://michaelrren.github.io/</loc><lastmod>2023-02-10T16:20:42&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://michaelrren.github.io/tags/latex/</loc><lastmod>2023-02-27T22:48:35&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://michaelrren.github.io/posts/</loc><lastmod>2023-02-27T22:48:35&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://michaelrren.github.io/</loc><lastmod>2023-02-27T22:48:35&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https://michaelrren.github.io/en/"
@@ -24,7 +22,8 @@
                     hreflang="zh-cn"
                     href="https://michaelrren.github.io/"
                     /></url><url>
-            <loc>https://michaelrren.github.io/tags/</loc><lastmod>2023-02-10T16:20:42&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://michaelrren.github.io/tags/resume/</loc><lastmod>2023-02-27T22:48:35&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://michaelrren.github.io/tags/</loc><lastmod>2023-02-27T22:48:35&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https://michaelrren.github.io/en/tags/"
@@ -33,4 +32,8 @@
                     hreflang="zh-cn"
                     href="https://michaelrren.github.io/tags/"
                     /></url><url>
-            <loc>https://michaelrren.github.io/categories/%E9%BB%91%E7%A7%91%E6%8A%80/</loc><lastmod>2023-02-10T16:20:42&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url></urlset>
+            <loc>https://michaelrren.github.io/categories/%E9%BB%91%E7%A7%91%E6%8A%80/</loc><lastmod>2023-02-27T22:48:35&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://michaelrren.github.io/latex-resume/</loc><lastmod>2023-02-27T22:48:35&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://michaelrren.github.io/tags/github/</loc><lastmod>2023-02-10T16:20:42&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
+            <loc>https://michaelrren.github.io/hugo-github/</loc><lastmod>2023-02-10T16:20:42&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
+            <loc>https://michaelrren.github.io/tags/hugo/</loc><lastmod>2023-02-10T16:20:42&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url></urlset>

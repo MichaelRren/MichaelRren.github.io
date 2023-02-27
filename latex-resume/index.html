@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>基于 Latex 生成中文简历 - Ren Haoshi&#39;s Blog</title><meta name="Description" content=""><meta property="og:title" content="基于 Latex 生成中文简历" />
+<meta property="og:description" content="使用 Latex 编写模版的优势 对于 .doc 文件而言，在不同的机器或不同的版本的 Office 打开都会可能使文档内容偏移。 即使同一版本的 Office，在不同的机器上，打印" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://michaelrren.github.io/latex-resume/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-02-27T22:48:35+08:00" />
+<meta property="article:modified_time" content="2023-02-27T22:48:35+08:00" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="基于 Latex 生成中文简历"/>
+<meta name="twitter:description" content="使用 Latex 编写模版的优势 对于 .doc 文件而言，在不同的机器或不同的版本的 Office 打开都会可能使文档内容偏移。 即使同一版本的 Office，在不同的机器上，打印"/>
+<meta name="application-name" content="Ren&#39;s Blog">
+<meta name="apple-mobile-web-app-title" content="Ren&#39;s Blog"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://michaelrren.github.io/latex-resume/" /><link rel="prev" href="https://michaelrren.github.io/hugo-github/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "基于 Latex 生成中文简历",
+        "inLanguage": "zh-CN",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/michaelrren.github.io\/latex-resume\/"
+        },"image": [{
+                            "@type": "ImageObject",
+                            "url": "https:\/\/michaelrren.github.io\/images\/Apple-Devices-Preview.png",
+                            "width":  3200 ,
+                            "height":  2048 
+                        }],"genre": "posts","keywords": "resume, latex","wordcount":  339 ,
+        "url": "https:\/\/michaelrren.github.io\/latex-resume\/","datePublished": "2023-02-27T22:48:35+08:00","dateModified": "2023-02-27T22:48:35+08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
+            "@type": "Organization",
+            "name": "xxxx","logo": {
+                    "@type": "ImageObject",
+                    "url": "https:\/\/michaelrren.github.io\/images\/hacker.png",
+                    "width":  1024 ,
+                    "height":  1024 
+                }},"author": {
+                "@type": "Person",
+                "name": "Ren Haoshi"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Ren Haoshi&#39;s Blog"><span class="header-title-pre"><i class='far fa-solid fa-house' aria-hidden='true'></i></span></a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> 所有文章 </a><a class="menu-item" href="/categories/"> 分类 </a><span class="menu-item delimiter"></span><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a><a href="javascript:void(0);" class="menu-item language" title="选择语言">
+                    <i class="fa fa-globe" aria-hidden="true"></i>                      
+                    <select class="language-select" id="language-select-desktop" onchange="location = this.value;"><option value="/latex-resume/" selected>简体中文</option></select>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Ren Haoshi&#39;s Blog"><span class="header-title-pre"><i class='far fa-solid fa-house' aria-hidden='true'></i></span></a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><a class="menu-item" href="/posts/" title="">所有文章</a><a class="menu-item" href="/categories/" title="">分类</a><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a><a href="javascript:void(0);" class="menu-item" title="选择语言">
+                    <i class="fa fa-globe fa-fw" aria-hidden="true"></i>
+                    <select class="language-select" onchange="location = this.value;"><option value="/latex-resume/" selected>简体中文</option></select>
+                </a></div>
+    </div>
+</header><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">目录</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">基于 Latex 生成中文简历</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="https://github.com/MichaelRren" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Ren Haoshi</a></span>&nbsp;<span class="post-category">收录于 <a href="/categories/%E9%BB%91%E7%A7%91%E6%8A%80/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>黑科技</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-02-27">2023-02-27</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;约 339 字&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;预计阅读 1 分钟&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  data-kept="">
+                <div class="details-summary toc-title">
+                    <span>目录</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#使用-latex-编写模版的优势">使用 Latex 编写模版的优势</a></li>
+    <li><a href="#模版样式">模版样式</a></li>
+    <li><a href="#项目地址">项目地址</a></li>
+    <li><a href="#使用方法">使用方法</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><h1 id="使用-latex-编写模版的优势">使用 Latex 编写模版的优势</h1>
+<ol>
+<li>对于 <code>.doc</code> 文件而言，在不同的机器或不同的版本的 <code>Office</code> 打开都会可能使<strong>文档内容偏移</strong>。</li>
+<li>即使同一版本的 <code>Office</code>，在不同的机器上，打印的字体都可能不同，例如有些纯英文机器上缺少支持的中文字体等。</li>
+<li>携带不方便，由于每次都要基于最新的版本进行修改，因此需要时刻携带最新版本简历。</li>
+<li>快速修改简历。针对不同岗位，不同的要求，可以在云端快速进行修改，保存多个版本。</li>
+</ol>
+<p>因此，通过 <code>Overleaf</code> 平台，使用基于 Latex 的简历模版，可以做到在线保存最新版本的简历，且生成的 <code>.pdf</code> 文件是一致的，不会因为<strong>使用环境原因导致输出的文件与之前的不一致</strong>，无需调整。</p>
+<h1 id="模版样式">模版样式</h1>
+<center><figure><img src="images/resume.png" width="50%"/>
+</figure>
+</center>
+<h1 id="项目地址">项目地址</h1>
+<p><a href="https://github.com/MichaelRren/resume-zh" target="_blank" rel="noopener noreffer ">仓库链接</a></p>
+<h1 id="使用方法">使用方法</h1>
+<ol>
+<li>github 上以 zip 格式下载此项目</li>
+<li>将 zip 导入 Overleaf 中</li>
+<li>在 Overleaf 页面点击 Menu bar，修改 Compiler，从 pdfLaTex 变为 XeLaTex（支持中文）</li>
+<li>修改 resume.tex 文件</li>
+<li>完成后进行 recompile</li>
+</ol>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>更新于 2023-02-27</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="分享到 Twitter" data-sharer="twitter" data-url="https://michaelrren.github.io/latex-resume/" data-title="基于 Latex 生成中文简历" data-hashtags="resume,latex"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="https://michaelrren.github.io/latex-resume/" data-hashtag="resume"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="https://michaelrren.github.io/latex-resume/" data-title="基于 Latex 生成中文简历"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/resume/">resume</a>,&nbsp;<a href="/tags/latex/">latex</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">返回</a></span>&nbsp;|&nbsp;<span><a href="/">主页</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/hugo-github/" class="prev" rel="prev" title="Github Pages 结合 Hugo 搭建个人博客"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>Github Pages 结合 Hugo 搭建个人博客</a></div>
+</div>
+<div id="comments"><div id="utterances" class="comment"></div><noscript>
+                Please enable JavaScript to view the comments powered by <a href="https://utteranc.es/">utterances</a>.
+            </noscript></div></article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2022 - 2023</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="https://github.com/MichaelRren" target="_blank">Ren Haoshi</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="回到顶部">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="查看评论">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sharer.js@0.5.1/sharer.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"复制到剪贴板","maxShownLines":50},"comment":{"utterances":{"darkTheme":"github-dark","issueTerm":"pathname","label":"","lightTheme":"github-light","repo":"MichaelRren/comments"}}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>

@@ -4,7 +4,15 @@
         <link>https://michaelrren.github.io/posts/</link>
         <description>所有文章 | Ren Haoshi&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>m.renhaoshi@gmail.com (Ren Haoshi)</managingEditor>
-            <webMaster>m.renhaoshi@gmail.com (Ren Haoshi)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 10 Feb 2023 16:20:42 &#43;0800</lastBuildDate><atom:link href="https://michaelrren.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>m.renhaoshi@gmail.com (Ren Haoshi)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 27 Feb 2023 22:48:35 &#43;0800</lastBuildDate><atom:link href="https://michaelrren.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>基于 Latex 生成中文简历</title>
+    <link>https://michaelrren.github.io/latex-resume/</link>
+    <pubDate>Mon, 27 Feb 2023 22:48:35 &#43;0800</pubDate>
+    <author>Ren Haoshi</author>
+    <guid>https://michaelrren.github.io/latex-resume/</guid>
+    <description><![CDATA[使用 Latex 编写模版的优势 对于 .doc 文件而言，在不同的机器或不同的版本的 Office 打开都会可能使文档内容偏移。 即使同一版本的 Office，在不同的机器上，打印]]></description>
+</item>
+<item>
     <title>Github Pages 结合 Hugo 搭建个人博客</title>
     <link>https://michaelrren.github.io/hugo-github/</link>
     <pubDate>Fri, 10 Feb 2023 16:20:42 &#43;0800</pubDate>
